@@ -5,6 +5,7 @@ set ( EXAMPLES
       trixi_controller_mpi.f90
       trixi_controller_data.c
       trixi_controller_data.f90
+      trixi_controller_raw_data.c
       trixi_controller_t8code.c
       trixi_controller_t8code.f90
       trixi_controller_baroclinic.c

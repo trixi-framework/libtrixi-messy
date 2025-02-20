@@ -442,6 +442,24 @@ module LibTrixi
       real(c_double), dimension(*), intent(in) :: data
     end subroutine
 
+    !>
+    !! @anchor trixi_get_data_pointer_api_c
+    !!
+    !! @brief Return pointer to internal data vector.
+    !!
+    !! The returned pointer points to the beginning of the internal data array used in
+    !! Trixi.jl. This array contains the conservative variables, i.e. density, momentum
+    !! density in the three Cartesian coordinates, and energy density, in this sequence.
+    !! The pointer can be used to read, but also to write these variables. The latter
+    !! should be done with care. Writing while a time step in being performed will lead to
+    !! undefined behavior.
+    !!
+    !! @param[in]  handle  simulation handle
+    type (c_ptr) function trixi_get_data_pointer(handle) bind(c)
+      use, intrinsic :: iso_c_binding, only: c_int, c_ptr
+      integer(c_int), value, intent(in) :: handle
+    end function
+
 
 
     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

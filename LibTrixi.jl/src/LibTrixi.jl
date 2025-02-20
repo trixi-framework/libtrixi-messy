@@ -61,6 +61,9 @@ export trixi_load_element_averaged_primitive_vars,
 export trixi_register_data,
        trixi_register_data_cfptr,
        trixi_register_data_jl
+export trixi_get_data_pointer,
+       trixi_get_data_pointer_cfptr,
+       trixi_get_data_pointer_jl
 export trixi_version_library,
        trixi_version_library_cfptr,
        trixi_version_library_jl

@@ -210,6 +210,11 @@ function trixi_register_data_jl(simstate, index, data)
 end
 
 
+function trixi_get_data_pointer_jl(simstate)
+    return pointer(simstate.integrator.u)
+end
+
+
 function trixi_get_simulation_time_jl(simstate)
     return simstate.integrator.t
 end

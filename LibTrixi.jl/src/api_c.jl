@@ -539,6 +539,25 @@ trixi_load_element_averaged_primitive_vars_cfptr() =
 
 
 """
+    trixi_get_data_pointer(simstate_handle::Cint)::Ptr{Cdouble}
+
+Return pointer to internal data vector.
+"""
+function trixi_get_data_pointer end
+
+Base.@ccallable function trixi_get_data_pointer(simstate_handle::Cint)::Ptr{Cdouble}
+    simstate = load_simstate(simstate_handle)
+    return trixi_get_data_pointer_jl(simstate)
+end
+
+trixi_get_data_pointer_cfptr() = @cfunction(trixi_get_data_pointer, Ptr{Cdouble}, (Cint,))
+
+
+
+############################################################################################
+# t8code
+############################################################################################
+"""
     trixi_get_t8code_forest(simstate_handle::Cint)::Ptr{Trixi.t8_forest}
 
 Return t8code forest of the current T8codeMesh.
@@ -556,6 +575,8 @@ end
 
 trixi_get_t8code_forest_cfptr() =
     @cfunction(trixi_get_t8code_forest, Ptr{Trixi.t8_forest}, (Cint,))
+
+
 
 ############################################################################################
 # Auxiliary

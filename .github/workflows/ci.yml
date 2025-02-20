@@ -243,6 +243,7 @@ jobs:
           ../build/examples/trixi_controller_simple_f          . libelixir_tree1d_advection_basic.jl
           ../build/examples/trixi_controller_data_c            . libelixir_t8code2d_advection_amr.jl
           ../build/examples/trixi_controller_data_f            . libelixir_t8code2d_advection_amr.jl
+          ../build/examples/trixi_controller_raw_data_c        . libelixir_t8code2d_advection_amr.jl
           ../build/examples/trixi_controller_t8code_c          . libelixir_t8code2d_advection_amr.jl
           ../build/examples/trixi_controller_t8code_f          . libelixir_t8code2d_advection_amr.jl
           ../build/examples/trixi_controller_baroclinic_c      . libelixir_t8code3d_euler_baroclinic_instability.jl
@@ -277,6 +278,8 @@ jobs:
                          "../build/examples/trixi_controller_data_c ."   \
                          "../build/examples/trixi_controller_data_f"     \
                          "../build/examples/trixi_controller_data_f ."   \
+                         "../build/examples/trixi_controller_raw_data_c"     \
+                         "../build/examples/trixi_controller_raw_data_c ."   \
                          "../build/examples/trixi_controller_t8code_c"   \
                          "../build/examples/trixi_controller_t8code_c ." \
                          "../build/examples/trixi_controller_t8code_f"   \

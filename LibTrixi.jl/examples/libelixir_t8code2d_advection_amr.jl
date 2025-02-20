@@ -51,18 +51,23 @@ function init_simstate()
     # The AMRCallback triggers adaptive mesh refinement
     amr_controller = ControllerThreeLevel(semi, IndicatorMax(semi, variable=first),
                                           base_level=2,
-                                          med_level=3, med_threshold=0.1,
-                                          max_level=4, max_threshold=0.6)
+                                          med_level=3, med_threshold=0.8,
+                                          max_level=4, max_threshold=1.2)
     amr_callback = AMRCallback(semi, amr_controller,
                                interval=10,
                                adapt_initial_condition=true,
                                adapt_initial_condition_only_refine=true)
+
+    save_solution = SaveSolutionCallback(interval=10,
+                                         save_initial_solution=true,
+                                         save_final_solution=true)
 
     # Create a CallbackSet to collect all callbacks such that they can be passed to the ODE solver
     callbacks = CallbackSet(summary_callback,
                             analysis_callback,
                             alive_callback,
                             amr_callback,
+                            save_solution,
                             stepsize_callback)
 
 

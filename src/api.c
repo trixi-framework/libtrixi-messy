@@ -25,6 +25,7 @@ enum {
     TRIXI_FTPR_LOAD_PRIMITIVE_VARS,
     TRIXI_FTPR_LOAD_ELEMENT_AVERAGED_PRIMITIVE_VARS,
     TRIXI_FTPR_REGISTER_DATA,
+    TRIXI_FPTR_GET_DATA_POINTER,
     TRIXI_FTPR_VERSION_LIBRARY,
     TRIXI_FTPR_VERSION_LIBRARY_MAJOR,
     TRIXI_FTPR_VERSION_LIBRARY_MINOR,
@@ -63,6 +64,7 @@ static const char* trixi_function_pointer_names[] = {
     [TRIXI_FTPR_LOAD_PRIMITIVE_VARS]                  = "trixi_load_primitive_vars_cfptr",
     [TRIXI_FTPR_LOAD_ELEMENT_AVERAGED_PRIMITIVE_VARS] = "trixi_load_element_averaged_primitive_vars_cfptr",
     [TRIXI_FTPR_REGISTER_DATA]                        = "trixi_register_data_cfptr",
+    [TRIXI_FPTR_GET_DATA_POINTER]                     = "trixi_get_data_pointer_cfptr",
     [TRIXI_FTPR_VERSION_LIBRARY]                      = "trixi_version_library_cfptr",
     [TRIXI_FTPR_VERSION_LIBRARY_MAJOR]                = "trixi_version_library_major_cfptr",
     [TRIXI_FTPR_VERSION_LIBRARY_MINOR]                = "trixi_version_library_minor_cfptr",
@@ -723,6 +725,29 @@ void trixi_register_data(int handle, int index, int size, const double * data) {
 
     // Call function
     register_data(handle, index, size, data);
+}
+
+
+/**
+ * @anchor trixi_get_data_pointer_api_c
+ *
+ * @brief Return pointer to internal data vector.
+ *
+ * The returned pointer points to the beginning of the internal data array used in Trixi.jl.
+ * This array contains the conservative variables, i.e. density, momentum density in the
+ * three Cartesian coordinates, and energy density, in this sequence. The pointer can be
+ * used to read, but also to write these variables. The latter should be done with care.
+ * Writing while a time step in being performed will lead to undefined behavior.
+ *
+ * @param[in]  handle  simulation handle
+ */
+double * trixi_get_data_pointer(int handle) {
+
+    // Get function pointer
+    double * (*get_data_pointer)(int) = trixi_function_pointers[TRIXI_FPTR_GET_DATA_POINTER];
+
+    // Call function
+    return get_data_pointer(handle);
 }
 
 
