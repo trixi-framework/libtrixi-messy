@@ -753,7 +753,7 @@ double trixi_get_simulation_time(int handle) {
 
 /** Get t8code forest
  *
- *  For Trixi simulations on t8code meshes, the t8code forest is returned.
+ *  For Trixi.jl simulations on t8code meshes, the t8code forest is returned.
  *
  *  \param[in] handle simulation handle
  *
@@ -770,6 +770,54 @@ t8_forest_t trixi_get_t8code_forest(int handle) {
 
     // Call function
     return get_t8code_forest(handle);
+}
+
+
+
+/******************************************************************************************/
+/* P4est                                                                                  */
+/******************************************************************************************/
+
+/** Get p4est mesh (2D)
+ *
+ *  For Trixi.jl simulations using P4estMesh in 2D, the p4est data structure is returned.
+ *
+ *  \param[in] handle simulation handle
+ *
+ *  \warning The interface to p4est is experimental and implementation details may change
+ *           at any time without warning.
+ *
+ *  \return Pointer to `p4est` data structure
+ */
+p4est_t* trixi_get_p4est_mesh(int handle) {
+
+    // Get function pointer
+    p4est_t* (*get_p4est_mesh)(int) = trixi_function_pointers[TRIXI_FTPR_GET_P4EST_MESH];
+
+    // Call function
+    return get_p4est_mesh(handle);
+}
+
+
+
+/** Get p8est mesh (3D)
+ *
+ *  For Trixi.jl simulations using P4estMesh in 3D, the p8est data structure is returned.
+ *
+ *  \param[in] handle simulation handle
+ *
+ *  \warning The interface to p4est is experimental and implementation details may change
+ *           at any time without warning.
+ *
+ *  \return Pointer to `p8est` data structure
+ */
+p8est_t* trixi_get_p8est_mesh(int handle) {
+
+    // Get function pointer
+    p8est_t* (*get_p8est_mesh)(int) = trixi_function_pointers[TRIXI_FTPR_GET_P8EST_MESH];
+
+    // Call function
+    return get_p8est_mesh(handle);
 }
 
 

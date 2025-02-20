@@ -220,6 +220,18 @@ function trixi_get_t8code_forest_jl(simstate)
     return mesh.forest.pointer
 end
 
+
+function trixi_get_p4est_mesh_jl(simstate)
+    mesh, _, _, _ = Trixi.mesh_equations_solver_cache(simstate.semi)
+    return mesh.p4est
+end
+
+
+function trixi_get_p8est_mesh_jl(simstate)
+    mesh, _, _, _ = Trixi.mesh_equations_solver_cache(simstate.semi)
+    return mesh.p8est
+end
+
 ############################################################################################
 # Auxiliary
 ############################################################################################

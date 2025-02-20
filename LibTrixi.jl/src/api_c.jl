@@ -557,6 +557,46 @@ end
 trixi_get_t8code_forest_cfptr() =
     @cfunction(trixi_get_t8code_forest, Ptr{Trixi.t8_forest}, (Cint,))
 
+
+"""
+    trixi_get_p4est_mesh(simstate_handle::Cint)::Ptr{Trixi.p4est_t}
+
+Return pointer to p4est data structure of the current P4estMesh (2D).
+
+!!! warning "Experimental"
+    The interface to p4est is experimental and implementation details may change at any
+    time without warning.
+"""
+function trixi_get_p4est_mesh end
+
+Base.@ccallable function trixi_get_p4est_mesh(simstate_handle::Cint)::Ptr{Trixi.p4est_t}
+    simstate = load_simstate(simstate_handle)
+    return trixi_get_p4est_mesh_jl(simstate)
+end
+
+trixi_get_p4est_mesh_cfptr() = @cfunction(trixi_get_p4est_mesh, Ptr{Trixi.p4est_t}, (Cint,))
+
+
+"""
+    trixi_get_p8est_mesh(simstate_handle::Cint)::Ptr{Trixi.p8est_t}
+
+Return pointer to the p8est data structure of the current P4estMesh (3D).
+
+Note: In Trixi.jl, the mesh type is `P4estMesh` no matter whether it is a 2D or 3D mesh.
+
+!!! warning "Experimental"
+    The interface to p4est is experimental and implementation details may change at any
+    time without warning.
+"""
+function trixi_get_p8est_mesh end
+
+Base.@ccallable function trixi_get_p8est_mesh(simstate_handle::Cint)::Ptr{Trixi.p8est_t}
+    simstate = load_simstate(simstate_handle)
+    return trixi_get_p8est_mesh_jl(simstate)
+end
+
+trixi_get_p8est_mesh_cfptr() = @cfunction(trixi_get_p8est_mesh, Ptr{Trixi.p8est_t}, (Cint,))
+
 ############################################################################################
 # Auxiliary
 ############################################################################################

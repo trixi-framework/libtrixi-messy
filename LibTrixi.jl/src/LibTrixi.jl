@@ -82,6 +82,12 @@ export trixi_version_julia_extended,
 export trixi_get_t8code_forest,
        trixi_get_t8code_forest_cfptr,
        trixi_get_t8code_forest_jl
+export trixi_get_p4est_mesh,
+       trixi_get_p4est_mesh_cfptr,
+       trixi_get_p4est_mesh_jl
+export trixi_get_p8est_mesh,
+       trixi_get_p8est_mesh_cfptr,
+       trixi_get_p8est_mesh_jl
 export trixi_eval_julia,
        trixi_eval_julia_cfptr,
        trixi_eval_julia_jl
