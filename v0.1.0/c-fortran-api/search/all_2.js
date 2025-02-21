@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['trixi_2eh_2',['trixi.h',['../trixi_8h.html',1,'']]],
+  ['trixi_5fcalculate_5fdt_3',['trixi_calculate_dt',['../group__api__c.html#ga0cc86df11b940c5a4d074ecb4bcb89c4',1,'trixi.h']]],
+  ['trixi_5feval_5fjulia_4',['trixi_eval_julia',['../group__api__c.html#ga3d7bd74c1e91c196b26933a03607e3af',1,'trixi.h']]],
+  ['trixi_5ffinalize_5',['trixi_finalize',['../group__api__c.html#ga00aefba87d93c304f245ecd97b9291d1',1,'trixi.h']]],
+  ['trixi_5ffinalize_5fsimulation_6',['trixi_finalize_simulation',['../group__api__c.html#ga9fdfa1ba0563427283b8881c5f8af65b',1,'trixi.h']]],
+  ['trixi_5finitialize_7',['trixi_initialize',['../group__api__c.html#ga39c9045b374855d999e6b9a03d875c65',1,'trixi.h']]],
+  ['trixi_5finitialize_5fsimulation_8',['trixi_initialize_simulation',['../group__api__c.html#ga7435db99aea385c805c1432df0c485e1',1,'trixi.h']]],
+  ['trixi_5fis_5ffinished_9',['trixi_is_finished',['../group__api__c.html#ga60fd1d76b753af877cdeeb8864f97d4e',1,'trixi.h']]],
+  ['trixi_5fload_5fcell_5faverages_10',['trixi_load_cell_averages',['../group__api__c.html#ga33b27787396b2abcdc46705584125ad2',1,'trixi.h']]],
+  ['trixi_5fndims_11',['trixi_ndims',['../group__api__c.html#gaedd404ff7ae3521befc9eed4b5cc0037',1,'trixi.h']]],
+  ['trixi_5fnelements_12',['trixi_nelements',['../group__api__c.html#gaa83ea1644117e07ff953d7ff91e36c3e',1,'trixi.h']]],
+  ['trixi_5fnelements_5fglobal_13',['trixi_nelements_global',['../group__api__c.html#ga03eb4548e012c4e15a06bf0f8a0f4467',1,'trixi.h']]],
+  ['trixi_5fnvariables_14',['trixi_nvariables',['../group__api__c.html#ga0f696139c16f0bb17b3ad2ab9b8e3036',1,'trixi.h']]],
+  ['trixi_5fstep_15',['trixi_step',['../group__api__c.html#gac3adb93a3dffaa163a6bf6ab68a2f7f3',1,'trixi.h']]],
+  ['trixi_5fversion_5fjulia_16',['trixi_version_julia',['../group__api__c.html#ga0b525db4e660f21ca98ac8df4d4df556',1,'trixi.h']]],
+  ['trixi_5fversion_5fjulia_5fextended_17',['trixi_version_julia_extended',['../group__api__c.html#ga0e8cc722694ebfd02795f85c2b56eebc',1,'trixi.h']]],
+  ['trixi_5fversion_5flibrary_18',['trixi_version_library',['../group__api__c.html#ga90a70ebf62f5f9888e7587ea49c2b923',1,'trixi.h']]],
+  ['trixi_5fversion_5flibrary_5fmajor_19',['trixi_version_library_major',['../group__api__c.html#gaa27ea539fa851d5b351ec91325d9ff04',1,'trixi.h']]],
+  ['trixi_5fversion_5flibrary_5fminor_20',['trixi_version_library_minor',['../group__api__c.html#gabd355f9ec7ebf77a4b411105a64e2e93',1,'trixi.h']]],
+  ['trixi_5fversion_5flibrary_5fpatch_21',['trixi_version_library_patch',['../group__api__c.html#ga0bb1964c1a0d5cd26b34c9c5525b28e9',1,'trixi.h']]]
+];

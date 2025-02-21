@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['trixi_5fcalculate_5fdt_54',['trixi_calculate_dt',['../interfacelibtrixi_1_1trixi__calculate__dt.html',1,'libtrixi']]],
+  ['trixi_5feval_5fjulia_5fc_55',['trixi_eval_julia_c',['../interfacelibtrixi_1_1trixi__eval__julia__c.html',1,'libtrixi']]],
+  ['trixi_5ffinalize_56',['trixi_finalize',['../interfacelibtrixi_1_1trixi__finalize.html',1,'libtrixi']]],
+  ['trixi_5ffinalize_5fsimulation_57',['trixi_finalize_simulation',['../interfacelibtrixi_1_1trixi__finalize__simulation.html',1,'libtrixi']]],
+  ['trixi_5finitialize_5fc_58',['trixi_initialize_c',['../interfacelibtrixi_1_1trixi__initialize__c.html',1,'libtrixi']]],
+  ['trixi_5finitialize_5fsimulation_5fc_59',['trixi_initialize_simulation_c',['../interfacelibtrixi_1_1trixi__initialize__simulation__c.html',1,'libtrixi']]],
+  ['trixi_5fis_5ffinished_5fc_60',['trixi_is_finished_c',['../interfacelibtrixi_1_1trixi__is__finished__c.html',1,'libtrixi']]],
+  ['trixi_5fload_5fcell_5faverages_61',['trixi_load_cell_averages',['../interfacelibtrixi_1_1trixi__load__cell__averages.html',1,'libtrixi']]],
+  ['trixi_5fndims_62',['trixi_ndims',['../interfacelibtrixi_1_1trixi__ndims.html',1,'libtrixi']]],
+  ['trixi_5fnelements_63',['trixi_nelements',['../interfacelibtrixi_1_1trixi__nelements.html',1,'libtrixi']]],
+  ['trixi_5fnelements_5fglobal_64',['trixi_nelements_global',['../interfacelibtrixi_1_1trixi__nelements__global.html',1,'libtrixi']]],
+  ['trixi_5fnvariables_65',['trixi_nvariables',['../interfacelibtrixi_1_1trixi__nvariables.html',1,'libtrixi']]],
+  ['trixi_5fstep_66',['trixi_step',['../interfacelibtrixi_1_1trixi__step.html',1,'libtrixi']]],
+  ['trixi_5fversion_5fjulia_5fc_67',['trixi_version_julia_c',['../interfacelibtrixi_1_1trixi__version__julia__c.html',1,'libtrixi']]],
+  ['trixi_5fversion_5fjulia_5fextended_5fc_68',['trixi_version_julia_extended_c',['../interfacelibtrixi_1_1trixi__version__julia__extended__c.html',1,'libtrixi']]],
+  ['trixi_5fversion_5flibrary_5fc_69',['trixi_version_library_c',['../interfacelibtrixi_1_1trixi__version__library__c.html',1,'libtrixi']]],
+  ['trixi_5fversion_5flibrary_5fmajor_70',['trixi_version_library_major',['../interfacelibtrixi_1_1trixi__version__library__major.html',1,'libtrixi']]],
+  ['trixi_5fversion_5flibrary_5fminor_71',['trixi_version_library_minor',['../interfacelibtrixi_1_1trixi__version__library__minor.html',1,'libtrixi']]],
+  ['trixi_5fversion_5flibrary_5fpatch_72',['trixi_version_library_patch',['../interfacelibtrixi_1_1trixi__version__library__patch.html',1,'libtrixi']]]
+];

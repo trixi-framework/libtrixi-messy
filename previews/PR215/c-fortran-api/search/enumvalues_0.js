@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['trixi_5ffptr_5fnelements_107',['TRIXI_FPTR_NELEMENTS',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba31f70d1506676d479415252b5ebaf113',1,'api.c']]],
+  ['trixi_5ffptr_5fnelements_5fglobal_108',['TRIXI_FPTR_NELEMENTS_GLOBAL',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55baac6bfafe9ab920723a637d08b58a0498',1,'api.c']]],
+  ['trixi_5fftpr_5fcalculate_5fdt_109',['TRIXI_FTPR_CALCULATE_DT',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba43046ff5ca493f50f8ff9c961bdd7254',1,'api.c']]],
+  ['trixi_5fftpr_5feval_5fjulia_110',['TRIXI_FTPR_EVAL_JULIA',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55baf267f1ac504f1466f6585d48977b286a',1,'api.c']]],
+  ['trixi_5fftpr_5ffinalize_5fsimulation_111',['TRIXI_FTPR_FINALIZE_SIMULATION',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba051772f320c405880111d77ce89bbe89',1,'api.c']]],
+  ['trixi_5fftpr_5fget_5ft8code_5fforest_112',['TRIXI_FTPR_GET_T8CODE_FOREST',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba94e33c84c66334d4dfd2b2482e1c0c1c',1,'api.c']]],
+  ['trixi_5fftpr_5finitialize_5fsimulation_113',['TRIXI_FTPR_INITIALIZE_SIMULATION',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba5aa94cf378760f52f7b563529b3b2f45',1,'api.c']]],
+  ['trixi_5fftpr_5fis_5ffinished_114',['TRIXI_FTPR_IS_FINISHED',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba1b372835a8c38d65a37a0ccd29b9f83f',1,'api.c']]],
+  ['trixi_5fftpr_5fload_5fcell_5faverages_115',['TRIXI_FTPR_LOAD_CELL_AVERAGES',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55bafe82179c1bc19af4cbabd0da7daf71cf',1,'api.c']]],
+  ['trixi_5fftpr_5fndims_116',['TRIXI_FTPR_NDIMS',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba2c60013bd8a868c968dad5db5674a67d',1,'api.c']]],
+  ['trixi_5fftpr_5fnvariables_117',['TRIXI_FTPR_NVARIABLES',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55baf8e49791bafd2cb44e82722bbbd04d25',1,'api.c']]],
+  ['trixi_5fftpr_5fstep_118',['TRIXI_FTPR_STEP',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba6c5bcab9fddf65f9d1aeb2dabbe18f0d',1,'api.c']]],
+  ['trixi_5fftpr_5fversion_5fjulia_119',['TRIXI_FTPR_VERSION_JULIA',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba0403ea1329622f77c78926864b871dd5',1,'api.c']]],
+  ['trixi_5fftpr_5fversion_5fjulia_5fextended_120',['TRIXI_FTPR_VERSION_JULIA_EXTENDED',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55bad3444f00d8d460aefcbf1303f9282b06',1,'api.c']]],
+  ['trixi_5fftpr_5fversion_5flibrary_121',['TRIXI_FTPR_VERSION_LIBRARY',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba1a1927b53d8d0578f3d7c1b17c44c943',1,'api.c']]],
+  ['trixi_5fftpr_5fversion_5flibrary_5fmajor_122',['TRIXI_FTPR_VERSION_LIBRARY_MAJOR',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba5fd60c2ea0c46d9b535769fb09aac15a',1,'api.c']]],
+  ['trixi_5fftpr_5fversion_5flibrary_5fminor_123',['TRIXI_FTPR_VERSION_LIBRARY_MINOR',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55baf2508756038613f3aeb45fa3b197a59b',1,'api.c']]],
+  ['trixi_5fftpr_5fversion_5flibrary_5fpatch_124',['TRIXI_FTPR_VERSION_LIBRARY_PATCH',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55ba98e849953fb59796f641f29264e521db',1,'api.c']]],
+  ['trixi_5fnum_5ffptrs_125',['TRIXI_NUM_FPTRS',['../api_8c.html#a06fc87d81c62e9abb8790b6e5713c55bac0ad0ec60970da8e15799e07816772ed',1,'api.c']]]
+];
